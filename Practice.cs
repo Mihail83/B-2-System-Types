@@ -32,11 +32,14 @@ namespace ConsoleApp7
             string charToStringUsingConverter = Convert.ToString(sex);  //CONVERT: "M"
 
             //1.2 CHAR to BOOL
+            //bool chartoboolImplicit = place;                          //IMPLICIT
+            //bool chartoboolExplicit = (bool)place;                    //EXPLICIT
+            bool chartobool = Convert.ToBoolean(place);
 
             //1.3 CHAR to DECIMAL
-                    
+
             //1.4 CHAR to INT
-           
+
             //2. STRING CONVERSION
 
             //2.1 STRING to CHAR
@@ -44,37 +47,37 @@ namespace ConsoleApp7
             //2.2 STRING to BOOL
 
             //2.3 STRING to DECIMAL
-      
+
             //2.4 STRING to INT
-          
+
             //3. BOOL CONVERSION
 
             //3.1 BOOL to CHAR
-           
+
             //3.2 BOOL to STRING
-           
+
             //3.3 BOOL to DECIMAL
-          
+
             //3.4 BOOL to INT
-          
+
             //4. DECIMAL CONVERSION
 
             //4.1 DECIMAL to CHAR
-         
+
             //4.2 DECIMAL to BOOL
-          
+
             //4.3 DECIMAL to STRING
-          
+
             //4.4 DECIMAL to INT
-          
+
             //5. INT CONVERSION         
 
             //5.1 INT to CHAR
-          
+
             //5.2 INT to BOOL
-           
+
             //5.3 INT to DECIMAL
-         
+
             //5.4 INT to STRING
         }
     }
